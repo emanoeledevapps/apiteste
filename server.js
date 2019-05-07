@@ -10,7 +10,7 @@ app.use(cors());
 
 //iniciando o DB
 mongoose.connect(
-    'mongodb://localhost:27017/nodeapi', 
+    'mongodb+srv://emanoeledev:0301200210a@cluster0-7vegy.mongodb.net/test?retryWrites=true', 
     {useNewUrlParser: true}
 );
 requireDir('./src/models/');
